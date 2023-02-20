@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #ccc; */
+}
+.header {
+    background-color: brown;
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+.banner {
+    background-color:thistle;
+    width: 100%;
+    height: 200px;
+    color:black ;
+    text-align: center;
+    line-height: 200px;
+    float: left;
+}
+.bt1{
+    background-color: black;
+    float: left;
+    margin-left: 50px;
+    width: calc(100vw - 100px);
+    height: 50px;
+}
+.text_bt1{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 0 50px;
+}
+.advertisement{
+    float: right;
+    background-color: cornflowerblue;
+    height: 200px;
+    width:  50% ;
+
+}
+.text_advertisement{
+    background-color: brown;
+    margin-left: 50px;
+    height: 100px;
+}
+.advertisement2 {
+    background-color: chartreuse;
+    margin-left: 60px;
+    height: 40px;
+}
+.text_advertisement2 {
+    background-color: cyan;
+    margin: 0 20px 0 60px;
+    height:80px ;
+}
+
+.img1{
+    float: left;
+    background-color: darkblue;
+    margin-left: 60px;
+    height: 150px;
+    width: calc((100vw - 240px ) / 3);
+}
+
+.img2{
+    float: left;
+    background-color:violet;
+    margin: 0 60px;
+    height: 150px;
+    width: calc((100vw - 240px ) / 3);
+}
+
+.img3{
+    float: left;
+    background-color: seagreen;
+    margin-right:  60px;
+    height: 150px;
+    width: calc((100vw - 240px ) / 3);
+}
+.bt2 {
+    background-color: darkmagenta;
+    height: 50px;
+    width: calc(100vw - 120px);
+    float: right;
+    margin-right:60px;
+}
+.text_last{
+    background-color: darkgray;
+    height: 50px;
+    width: calc(100vw - 120px);
+    float: right;
+    margin-right:60px;
+}
+.footer {
+    background-color: gold;
+   
+    width: calc(100vw - 120px);
+    float: right;
+    margin-right:60px;
+
+}

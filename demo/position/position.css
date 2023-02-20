@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+header {
+    height: 100px;
+    background-color:brown;
+}
+
+menu{
+    box-sizing: border-box;
+    margin: 0;
+    width: 200px;
+    height:calc(100vh - 100px - 100px) ;
+    background-color: violet;
+}
+
+.body{
+    /* position: relative;
+    left: 200px; */
+    position: absolute;
+    left : 200px;
+    top: 100px;
+    height:calc(100vh - 100px - 100px) ;
+    width: calc(100% - 200px);
+    background-color: tomato;
+    overflow-y: auto;
+   
+}
+
+.footer {   
+    height: 100px;
+    background-color: slateblue;
+    
+}

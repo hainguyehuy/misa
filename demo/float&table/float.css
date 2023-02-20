@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+
+}
+.header {
+    
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    float :left;
+}
+
+.menu {
+
+    background-color: aquamarine;
+    width: 200px;
+    height: calc(100vh - 100px - 70px );
+    float :left;
+}
+
+.body {
+    width: calc(100% - 200px); 
+    height: calc(100vh - 100px - 70px );
+    background-color: blue;
+    float :left;
+}
+
+.footer {
+    background-color:chocolate;
+    width: 100%;
+    height: 70px;
+    float :left;
+}

@@ -1,0 +1,30 @@
+/* các dạng selector trong css */
+/* 1. Element selector */
+header{
+    height: 56px;
+    width: 100%;
+    background-color: aquamarine;
+    float: left;
+}
+/* 2.ID selector */
+
+/* 3.class selector */
+
+/* 4  group selector
+div,p,a{
+
+}
+/* 5.định nghĩa css cho tất cả các con cháu ..... */
+div p { 
+    
+}
+
+/* 6. chỉ dành cho các con... */
+div>p{
+
+}
+
+/* 7. định nghĩa csscho phần tử liền kề phía sau  */
+div+div{
+
+} 
